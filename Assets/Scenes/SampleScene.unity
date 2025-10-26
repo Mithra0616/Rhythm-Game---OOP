@@ -494,18 +494,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2a9efcb853f5dd4b81010c854818b11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  beat: {fileID: 1765204949777505165, guid: b17eaeb652c8be746aba03dbc40765bf, type: 3}
-  bpm: 300
+  beat: {fileID: 1173063647}
+  bpm: 120
   beatsToSpawn:
   - 0
   - 1
   - 2
   - 3
+  - 4
   - 5
   - 6
-  - 9
-  - 12
-  - 15
+  - 7
+  hitPoints: 0100000002000000030000000300000003000000020000000200000001000000
+--- !u!1 &1173063647 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1765204949777505165, guid: b17eaeb652c8be746aba03dbc40765bf, type: 3}
+  m_PrefabInstance: {fileID: 306118049881344891}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1689602194
 GameObject:
   m_ObjectHideFlags: 0
